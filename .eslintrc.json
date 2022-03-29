@@ -2,10 +2,12 @@
   "env": {
     "browser": true,
     "es2021": true,
-    "vue/setup-compiler-macros": true
+    "vue/setup-compiler-macros": true,
+    "jest": true
   },
   "parser": "vue-eslint-parser",
   "extends": [
+    "prettier",
     "eslint:recommended",
     "plugin:vue/vue3-essential",
     "plugin:@typescript-eslint/recommended"
